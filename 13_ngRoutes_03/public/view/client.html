@@ -1,0 +1,14 @@
+<header ng-include="'view/nav.html'"></header>
+<section class="container">
+      <div class="row text-center">
+          <h1 ng-bind="client.name | uppercase"></h1>
+      </div>
+    <div class="row">
+        <p><b>Id: </b> {{ client.id }}</p>
+        <p><b>Name: </b> {{ client.name }}</p>
+        <p><b>Tel: </b> {{ client.tel }}</p>
+        <p><b>Address: </b> {{ client.address }}</p>
+        <a class="btn btn-default" href="#clients">Back</a>
+    </div>
+
+</section>

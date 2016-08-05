@@ -1,0 +1,13 @@
+{
+  "name": "evolving_with_angular",
+  "version": "1.0.0",
+  "title": "Evolving With Angular",
+  "devDependencies": {
+    "gulp": "^3.9.1",
+    "gulp-live-server": "0.0.29",
+    "gulp-uglify": "^1.5.3",
+    "gulp-browserify": "^0.5.1",
+    "gulp-rename": "^1.2.2",
+    "angular": "^1.5.2"
+  }
+}
